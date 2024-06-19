@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+p{
+    font-family: Sedgwick Ave Display;
+    font-weight: 400;
+    font-size: large;
+    color: black;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0.05%;
+}
+
+h1{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: medium;
+}
+
+h2{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: medium;
+    font-style: italic;
+    margin-top: 1.5%;
+}
+
+h3{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.boton{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: small;
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: rgb(125, 230, 25);
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.2s;
+    width: 110px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.boton:hover{
+    text-align: center;
+    font-family: Sedgwick Ave Display;
+    font-weight: 400;
+    font-size: medium;
+    color: rgb(125, 230, 25);
+    background-color: black;
+}
+
+img{
+    width:100%;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+
+div{
+    width: 40%;
+}
+
+.Mancha{
+    animation-name: Mancha;
+    width: 250px;
+    height: 250px;
+    background-image: url(../imagenes/Icono.png);
+    margin: auto;
+    margin-top: 5%;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Mancha{
+     from{background-size: 220px;}
+     to{background-size: 300px;}
+}
+
+video{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+}
+
+body{
+    width: auto;
+    height: auto;
+    padding: 0.25%;
+    background-image: url(../imagenes/Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    font-family: Sedgwick Ave Display;
+    font-weight: 400;
+    font-size: large;
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 1%;
+    margin-top: 6%;
+    background-color: rgb(125, 230, 25);
+}
